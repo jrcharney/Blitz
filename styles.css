@@ -88,3 +88,8 @@ main > article > p {}
 footer {
   background-color: none;
 }
+
+ul.todolist {}
+ul.todolist > li {}
+ul.todolist > li > input[type="checkbox"] {}
+ul.todolist > li > input[type="checkbox"]:checked {}
